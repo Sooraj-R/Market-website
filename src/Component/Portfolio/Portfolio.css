@@ -1,0 +1,71 @@
+
+
+.small {
+    width: 10%;
+    margin: 6rem;
+}
+
+.smallLinear {
+    margin: 0.2rem;
+    width: 5rem;
+}
+
+.elements {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.elementsHorizontal {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+}
+
+.linear {
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.linearHorizontal {
+    flex-flow: row nowrap;
+    flex-flow: column nowrap;
+}
+
+.images {
+    padding: 5% 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    background-color: black;
+    margin-top: -5px;
+}
+
+.parallaxImage {
+    margin: 5% 0;
+    width: 45%;
+    background: none;
+}
+
+.parallaxImage2 {    
+    width: 45%;
+    background: none;
+}
+
+.img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+.port-img{
+    width:480px;
+    height:480px;
+}

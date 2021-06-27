@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #f4cc05;
 }
 
 .App-logo {
@@ -35,4 +36,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.scrollContainerStyle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow-Y: scroll;
+  overflow-X: hidden;
+}
+.scrollContainerStyle::-webkit-scrollbar {
+  display: none;
 }
